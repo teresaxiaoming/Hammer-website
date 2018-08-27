@@ -1,0 +1,62 @@
+.hot>p{ /*热门商品*/
+    font-size: 19px;
+    color: #666666;
+    line-height: 2.5;
+    margin-left: 44px;
+}
+
+.selfie/* 自拍杆*/{
+    background: url("images/5-1.jpg") no-repeat center top;
+}
+.selfie:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .24) inset ;
+}
+.selfie>div{
+    margin-top: 233px;
+}
+.book/* 书*/{
+    background: url("images/5-2.jpg") no-repeat center top;
+}
+.book:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .24) inset ;
+}
+.book>div{
+    margin-top: 233px;
+}
+.protect/* 保护套*/{
+    background: url("images/5-3.jpg") no-repeat center top;
+}
+.protect:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .24) inset ;
+}
+.protect>div{
+    margin-top: 233px;
+}
+.headset/* 耳机*/{
+    background: url("images/5-4.jpg") no-repeat center top;
+}
+.headset:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .24) inset ;
+}
+.headset>div{
+    margin-top: 233px;
+}
+.goods>div span{
+    color: #B2B2B2;
+    font-size: 12px;
+}
+.goods>div p{
+    color: red;
+    font-size: 19px;
+}
+
+.select{
+    font-size: 15px;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.select-1{
+    margin-left: 136px;
+    margin-top: 23px;
+}

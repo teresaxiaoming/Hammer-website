@@ -1,0 +1,158 @@
+.news-panel ul li:hover > a,.hot-panel ul li:hover > a,
+.hot-panel-2 ul li:hover > a,
+.chuzi_app ul li:hover >a,.forum ul li:hover >a{   /*鼠标悬停内阴影*/
+	width:100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+    box-shadow: 0px 0px 20px #E6E6E6 inset;
+	}
+
+.hot-panel h1,.news-panel h1,.chuzi_app h1,.forum h1{ /*内容公共样式*/
+    margin:0px;
+    padding:0px;
+    line-height: 60px;
+    font-size: 18px;
+    color:#666;
+    font-weight:normal;
+    text-indent: 40px;
+    background: #FAFAFA;
+    border-bottom: 1px solid #E6E6E6;
+}
+.hot-panel ul li,.hot-panel-2 ul li,.chuzi_app ul li{
+    float: left;
+    height:449px;
+    /* background: #fff; */
+    width: 25%;
+    position: relative;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+.hot-panel,.hot-panel-2{
+    float: left;
+    width: 1220px;
+    height:449px;
+    background: #fff;
+    border-radius: 0 0 17px 17px;
+}
+.hot-panel ul li>img,.hot-panel-2 ul li>img{
+    width:206px;
+    height: 206px;
+    margin: 50px auto 30px;
+}
+.hot-panel ul li h2,.hot-panel-2 ul li h2{
+    font-size: 16px;
+    font-weight: normal;
+    margin:0px;
+    padding:0px;
+    
+}
+.hot-panel ul li p,.hot-panel ul li p{
+    font-size: 12px;
+    color: #B2B2B2;
+    line-height: 20px;
+}
+.hot-panel .price{
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    left: 0;
+    font-size: 18px;
+    color: #DE4037;
+    font-family: arial;
+}
+.finder{
+    width:100%;
+    position: absolute;
+    z-index: 22;
+    bottom: 75px;
+    
+    }
+.finder >img{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin:0 3px;
+    }
+.finder >img:hover{
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    }
+.finder img:first-child	{
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.24);
+    }
+.hot-panel ul li:hover .shoping{ /*鼠标经过效果  经过li 加入购物车和查看详情 出现*/
+    display: block;
+}
+.hot-panel .shoping{
+    width: 100%;
+    position: absolute;
+    bottom: 7%;
+    display: none;
+    z-index: 9;
+}	
+.shoping a{
+    border: 1px solid #E6E6E6;
+    font-size: 12px;
+    width: 100px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 5px;
+}
+.shoping a.details{
+    background: #f9f9f9;
+    color: #646464;
+    text-decoration: none;
+}
+.shoping a.details:hover{
+    background: #ededed;
+}
+
+.shoping a.join-cart{
+    background: #678ee7;
+    color: #fff;
+    text-decoration: none;
+}
+.shoping a.join-cart:hover{
+    background: #6c8cd4;
+}
+.hot-panel ul li:hover .price{ /*鼠标经过效果  经过li 隐藏价格*/
+    display: none;
+} 
+/*热门商品*/
+.selection ul li {
+    border-bottom:#e6e6e6 1px solid;}
+    
+.selection ul li:first-child
+{
+    width:50%;
+    }
+.selection ul li:first-child img{
+    height:100%;
+    width:100%;
+    margin:0px;}
+.application{
+    float:right;
+    border:1px solid #e6e6e6;
+    border-radius:5px;
+    width:100px;
+    height:35px;
+    background:#FeFeFe;
+    text-indent:0px;
+    margin-top:10px;
+    margin-right:20px;
+    line-height: 35px;
+    text-align:center;
+    font-size:14px;
+    color:#000;
+    }
+.application:hover{
+    background:#e6e6e6;
+    }	
